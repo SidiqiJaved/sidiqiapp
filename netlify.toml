@@ -1,0 +1,22 @@
+[build]
+  base = "site"
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/apps/dashboard02"
+  to = "https://dashboard02.streamlit.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/apps/franchise-inspector"
+  to = "https://inspector.streamlit.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/apps/proposal-summarizer"
+  to = "https://summarizer.streamlit.app/"
+  status = 200
+  force = true
